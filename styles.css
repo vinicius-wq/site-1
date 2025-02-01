@@ -71,19 +71,9 @@ h2{
     color: orange;
 }
 
-.Nutricao{
-    display: flex;
-  
-}
 
    
 .img{
    text-align: center;
 }
 
-@media screen and (max-widht:768px) {
-    .colaborador img{
-        width: 30%;
-    } 
-
-}
