@@ -12,11 +12,14 @@ max-width: 1000px;
 min-width: 200px;
 margin: auto;
 
+
 }
    
 h1{
   text-align: center;
 color: chocolate;
+max-width: 1000px;
+min-width: 200px;
 }
 
 .P1{
@@ -24,6 +27,8 @@ color: chocolate;
     color:gray;
     width: 80%;
     margin: auto;
+    max-width: 1000px;
+    min-width: 200px;
 
   
 }
@@ -34,6 +39,8 @@ color: chocolate;
         width: 80%;
         margin: auto;
         margin-left: 8%;
+        max-width: 1000px;
+        min-width: 200px;
     }
 
 .P3{
@@ -49,6 +56,8 @@ color: chocolate;
     color:gray;
     width:80%;
     margin-left: 8%;
+    max-width: 1000px;
+    min-width: 200px;
   
  
 }
@@ -59,6 +68,8 @@ color: chocolate;
     width: 80%;
     margin: auto;
     margin-left: 8%;
+    max-width: 1000px;
+    min-width: 200px;
   
 }
 
@@ -67,14 +78,17 @@ color: chocolate;
     background-color: white;
     margin: auto;
    border-radius: 8px;
- width: 70%;
-
+   max-width: 1000px;
+   min-width: 200px;
+   width: 70%;
 
 
 }
 
 h2{
     color: orange;
+    max-width: 1000px;
+    min-width: 200px;
 }
 
 
@@ -86,7 +100,6 @@ img{
     margin: auto;
     max-width: 1000px;
     min-width: 200px;
-    width:100%;
+ width: 100%;
 border-radius: 8px;
-
 }
