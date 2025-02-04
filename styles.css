@@ -104,3 +104,11 @@ img{
 border-radius: 8px;
 }
 
+.tabela{
+    max-width: 800px;
+    min-width: 200px;
+    text-align: center;
+    margin: auto;
+   
+    
+}
