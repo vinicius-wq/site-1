@@ -109,13 +109,7 @@ border-radius: 8px;
     min-width: 200px;
     text-align: center;
     margin: auto;
-   
-    
+text-align: left;
+    justify-content: center;
 }
 
-.Nutricao{
-    max-width: 1000px;
-    min-width: 200px;
-    text-align: center;
-    margin: auto;
-}
