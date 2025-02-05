@@ -104,7 +104,7 @@ img{
 border-radius: 8px;
 }
 
-.card{
+.card
     .card {
         width: 100%;
         max-width: 400px; /* Ajuste conforme necessário */
@@ -113,5 +113,12 @@ border-radius: 8px;
         border-radius: 8px;
         overflow: auto; /* Garante que a tabela role dentro do cartão */
        
-      }
+
+      
 }
+
+.card table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap; /* Evita que o conteúdo quebre */
+  }
