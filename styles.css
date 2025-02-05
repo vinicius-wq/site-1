@@ -104,21 +104,26 @@ img{
 border-radius: 8px;
 }
 
-.card
-    .card {
-        width: 100%;
-        max-width: 400px; /* Ajuste conforme necessário */
-        padding: 16px;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        overflow: auto; /* Garante que a tabela role dentro do cartão */
-       
-
-      
-}
-
-.card table {
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap; /* Evita que o conteúdo quebre */
+.card {
+    max-width: 100%; /* Garante que o card não ultrapasse os limites */
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
+  }
+  
+  .card table {
+    width: 100%; /* Faz a tabela se ajustar ao card */
+    max-width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .card th, .card td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd; /* Adiciona bordas suaves */
+  }
+  
+  .card th {
+    background-color: #f4f4f4;
   }
